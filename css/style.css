@@ -1,0 +1,356 @@
+@font-face {
+    font-family: "Bebas";
+    src: url("../font/bebas.ttf");
+}
+
+@font-face {
+    font-family: Calibri;
+    src: url("../font/calibri.ttf");
+}
+
+@font-face {
+    font-family: "St Marie Thin";
+    src: url("../font/StMarie-Thin.otf");
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.list-unstyled {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    font-family: "Calibri", sans-serif;
+    font-size: 15px;
+}
+
+p, figure {
+    margin: 0;
+}
+
+.content {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+    min-height: 100%;
+    margin-top: 132px;
+    margin-bottom: -72px;
+}
+
+/*header  */
+.main-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 128px;
+    background-color: white;
+    border-bottom: 4px solid #fcba50;
+}
+
+.logo {
+    float: left;
+    margin: 4px 15px;
+}
+
+.logo__image {
+    float: left;
+}
+
+.logo__title {
+    float: left;
+    margin: 11px 0 0 50px;
+    text-align: center;
+}
+
+.logo-title__item_first {
+    display: block;
+    margin-bottom: 6px;
+    color: #fb9c06;
+    font-size: 35px;
+    letter-spacing: 0.05em;
+    text-transform: lowercase;
+}
+
+.logo-title__item_second {
+    font-family: "Bebas", sans-serif;
+    font-size: 36px;
+    letter-spacing: 0.045em;
+}
+
+.nav {
+    float: right;
+    margin-top: 19px;
+    padding: 0 6px;
+}
+
+.nav__item {
+    display: inline-block;
+    margin-right: 75px;
+    text-transform: lowercase;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav__link {
+    display: inline-block;
+    padding-top: 57px;
+    font-size: 23px;
+    font-weight: bold;
+    background: url("../img/icons.png") no-repeat;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+    color: #fb9c06;
+}
+
+.nav__link_home {
+    background-position: 0 0;
+}
+
+.nav__link_about {
+    background-position: -129px 0;
+}
+
+.nav__link_work {
+    background-position: -243px 0;
+}
+
+.nav__link_blog {
+    background-position: -373px 0;
+}
+
+.nav__link_contact {
+    background-position: -498px 0;
+}
+
+/*banner*/
+
+.banner-container {
+    height: 400px;
+     /* override .main padding-top */
+    overflow: hidden;
+    background: url("../img/banner.png") no-repeat;
+    background-position-x: -10px;
+    border-bottom: 4px solid #fcba50;
+    margin-bottom: 29px;
+}
+
+.banner {
+    margin: 130px 0 0 10px;
+}
+
+.banner__title {
+    float: left;
+    margin: 0 9px 29px;
+    padding: 12px 12px 12px 30px;
+    font-family: "Bebas", sans-serif;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    background-color: rgba(0, 0, 0, .7);
+    color: #fcba50;
+}
+
+.banner__title_inverted {
+    clear: both;
+    margin: 0;
+    padding: 13px 18px 22px 30px;
+    background-color: rgba(251, 156, 6, .7);
+    color: #6e6d6b;
+}
+
+/*main-text-content*/
+.main-text-content {
+    margin-bottom: 19px;
+    padding-bottom: 27px;
+    border-bottom: 1px solid lightgray;
+}
+
+.main-text-content__item {
+    float: left;
+    box-sizing: border-box;
+    width: 300px;
+    padding: 0 10px 0 20px;
+    font-family: "Calibri", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: .025em;
+    line-height: 1.55em;
+    word-wrap: break-word;
+}
+
+.main-text-content__link {
+    float: right;
+    margin-right: 8px;
+    color: #fb9c06;
+    font-size: 17px;
+    text-transform: lowercase;
+    font-style: italic;
+    font-weight: normal;
+}
+
+/*team*/
+.team {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.team__heading {
+    display: inline-block;
+    margin: 0 0 40px;
+    line-height: 1.05em;
+    font-family: "St Marie Thin", sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+    letter-spacing: 0.03em;
+    border-bottom: 2px solid #fb9c06;
+    color: #fb9c06;
+}
+
+.team__members {
+    margin-left: -7px;
+    margin-right: -7px;
+}
+
+.member {
+    float: left;
+    width: 313px;
+    margin-right: 137px;
+}
+
+.member:nth-child(3) {
+    margin-right: 0;
+}
+
+.member__name {
+    margin: 0 0 28px;
+    font-size: 22px;
+    font-weight: lighter;
+    letter-spacing: 0.02em;
+}
+
+.member__title {
+    color: #fb9c06;
+}
+
+.member__picture {
+    display: block;
+    margin-bottom: 18px;
+}
+
+.member__image {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 10px solid #fb9c06;
+}
+
+.member__caption {
+    padding-left: 38px;
+    padding-right: 15px;
+    line-height: 23px;
+    text-align: left;
+    letter-spacing: .02em;
+    word-wrap: break-word;
+}
+
+/*contacts*/
+.contacts {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.contacts__heading {
+    display: inline-block;
+    margin: 0 0 70px;
+    line-height: 1em;
+    font-family: "St Marie Thin", sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+    letter-spacing: 0.03em;
+    border-bottom: 2px solid #fb9c06;
+    color: #fb9c06;
+}
+
+.form__label {
+    display: block;
+    margin-bottom: 43px;
+    font-family: "St Marie Thin", sans-serif;
+    color: #fb9c06;
+    font-size: 24px;
+    text-align: left;
+}
+
+.form__input {
+    float: right;
+    box-sizing: border-box;
+    min-width: 1069px;
+    height: 32px;
+    background-color: #f8f7f6;
+    border-top: 2px solid #d2d0cf;
+    border-left: 5px solid #d2d0cf;
+    border-right: none;
+    border-bottom: none;
+    font-family: "St Marie Thin", sans-serif;
+    outline: none;
+}
+
+.form__input:invalid:focus {
+    border: 3px solid #fb9c06;
+}
+
+.form__input_message {
+    height: 89px;
+    resize: none;
+}
+
+.form__btn {
+    float: right;
+    height: 49px;
+    width: 175px;
+    margin-top: 23px;
+    margin-right: 34px;
+    text-align: center;
+    background-color: #fb9c06;
+    border: none;
+    border-bottom: 3px solid #d3942f;
+    font-family: "St Marie Thin", sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+/*footer*/
+.push, .footer {
+    height: 72px;
+}
+
+.footer {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 16px 0;
+    border-bottom: 3px solid #cc830f;
+    background-color: #fb9c06;
+    color: white;
+    font-family: "St Marie Thin", sans-serif;
+    font-size: 33px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+}
