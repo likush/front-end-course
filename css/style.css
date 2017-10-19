@@ -46,8 +46,9 @@ p, figure {
 }
 
 .main {
+    box-sizing: border-box;
     min-height: 100%;
-    margin-top: 132px;
+    padding-top: 132px;
     margin-bottom: -72px;
 }
 
@@ -89,6 +90,7 @@ p, figure {
     font-family: "Bebas", sans-serif;
     font-size: 36px;
     letter-spacing: 0.045em;
+    color: black;
 }
 
 .nav {
