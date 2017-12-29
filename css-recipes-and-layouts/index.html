@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/normalize.css ">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+</head>
+<body>
+<header class="header">
+    <div class="header__row_inverted">
+        <div class="header-row-inverted__wrapper content">
+            <div class="header__custom-care"><span>Custom care: 888-23-4567</span></div>
+            <div class="header__menu">
+                <div class="header__currency">
+                    <span>$ US</span>
+                    <div class="down-arrow down-arrow_inverted"></div>
+                </div>
+                <div class="header__account">
+                    <img class="account-icon" src="img/icons/icon_account.png" alt="account"><a>My account</a>
+                </div>
+                <button class="btn header__search"><img src="img/icons/icon_search.png" alt="search"></button>
+            </div>
+        </div>
+    </div>
+    <div class="header__row content">
+        <a href="#" class="logo">
+            <img src="img/logo.png" alt="logo">
+        </a>
+        <nav class="header__navigation">
+            <ul class=" list list_horizontal header__nav">
+                <li class="nav__item"><a class="nav__link" href="">New</a>
+                    <div class="down-arrow"></div>
+                </li>
+                <li class="nav__item"><a class="nav__link" href="">Designers</a>
+                    <div class="down-arrow"></div>
+                </li>
+                <li class="nav__item"><a class="nav__link" href="">Women</a>
+                    <div class="down-arrow"></div>
+                </li>
+                <li class="nav__item"><a class="nav__link" href="">Men</a>
+                    <div class="down-arrow"></div>
+                </li>
+                <li class="nav__item"><a class="nav__link" href="">Clearance</a>
+                    <div class="down-arrow"></div>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="cart">
+            <div class="xs-hidden cart__row">
+                <a>Your cart</a>
+                <div class="down-arrow down-arrow_inverted"></div>
+            </div>
+            <div class="cart__row cart__row_inverted">
+                <img src="img/icons/icon_cart.png" alt="cart">
+                <div class="cart__links">
+                    <a class="cart__link" href="#">0 items</a>
+                    <a class="cart__link" href="#">$ 0</a></div>
+            </div>
+        </div>
+
+        <div class="header__nav_collapsed">
+            <span class="nav-collapsed__title">Menu</span>
+            <button class="collapsed__btn btn">
+                <img src="img/icons/icon__collapsed.png" alt="menu">
+            </button>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <section class="xs-hidden banner">
+        <div class="banner__bg">
+            <div class="content">
+                <div class="banner__title-group">
+                    <div class="banner__title_third">
+                        <div class="title-third_decorator"></div>
+                        <p class="title-third_content">Crazy</p>
+                        <div class="title-third_decorator"></div>
+                    </div>
+                    <div class="banner__title_general">
+                        <div class="general-title__bg">
+                            <div class="general-title__content">Crazy</div>
+                            <div class="general-title__content">summer</div>
+                        </div>
+                    </div>
+                    <div class="title-group__decorator title-group__decorator_lg"></div>
+                    <div class="title-group__decorator"></div>
+                    <p class="banner__title_second">Woman collection</p>
+                    <button class="btn btn_default banner__btn">
+                        <span>Shop now</span>
+                        <span class="right-arrow"></span>
+                    </button>
+
+                </div>
+                <button class="btn banner__control banner__control_prev">
+                    <img src="img/icons/banner__arrow-prev.png" alt="prev">
+                </button>
+                <button class="btn banner__control banner__control_next">
+                    <img src="img/icons/banner__arrow-next.png" alt="next">
+                </button>
+            </div>
+        </div>
+
+        <div class="banner__indicators">
+            <div class="indicator__item"></div>
+            <div class="indicator__item"></div>
+            <div class="indicator__item"></div>
+            <div class="indicator__item"></div>
+            <div class="indicator__item"></div>
+        </div>
+    </section>
+    <div class="updates">
+        <div class="updates__grid content">
+            <form class="updates__form" action="#">
+                <label class="form__label">
+                    <span class="xs-hidden">Stay updated</span>
+                    <input class="form__input" type="email" placeholder="Your email adress">
+                </label>
+                <button class="btn btn_default form__btn"><img src="img/icons/icon_plus.png" alt="send"></button>
+            </form>
+            <div class="updates__social">
+                <span>Find us here</span>
+                <button class="btn social__btn social__btn_fb"></button>
+                <button class="btn social__btn social__btn_twitter"></button>
+                <button class="btn social__btn social__btn_pinterest"></button>
+            </div>
+        </div>
+    </div>
+    <div class="xs-hidden content offers">
+        <div class="offer__item offer__item_1">
+            <div class="item item-1">
+                <div class="item-1__title_1">Best</div>
+                <div class="item-1__title_2">outfits</div>
+                <div class="item-1__title_3">
+                    <div class="item-1__title_decorator"></div>
+                    <div class="item-1__title_content">&</div>
+                    <div class="item-1__title_decorator"></div>
+                </div>
+                <div class="item-1__title_4">looks</div>
+            </div>
+        </div>
+        <div class="offer__item offer__item_2">
+            <div class="item item-2">
+                <div class="item-2__wrapper">
+                    <div class="item-2__title_1">Summer</div>
+                    <div class="item-2__title_2">party</div>
+                    <div class="item-2__title_3">collection</div>
+                </div>
+            </div>
+        </div>
+        <div class="offer__item offer__item_3">
+            <div class="item item-3">
+                <a class="item-3__link" href="#">Best sellers</a>
+                <img src="img/icons/offers__arrow.png" alt="arrow">
+            </div>
+        </div>
+        <div class="offer__item offer__item_4">
+            <div class="item item-4">
+                <div class="item-4__title-1">Fall</div>
+                <div class="item-4__title-2">leather</div>
+                <button class="btn item-4__btn">Shop now<span class="right-arrow"></span></button>
+            </div>
+        </div>
+
+    </div>
+    <div class="goods">
+        <div class="goods__btn-group content">
+            <div class="goods__btn-group_sections">
+                <button class="btn goods__btn goods__btn_active">What's hot?</button>
+                <button class="xs-hidden btn goods__btn">Designers</button>
+                <button class="xs-hidden btn goods__btn">Features</button>
+                <button class="xs-hidden btn goods__btn">Latest</button>
+            </div>
+            <div class="xs-hidden goods__btn-group_controls">
+                <button class="btn goods__control goods__control_prev">
+                    <img src="img/icons/goods-slider__control_prev.png" alt="previous">
+                </button>
+                <button class="btn goods__control goods__control_next goods__control_active">
+                    <img src="img/icons/goods-slider__control_next.png" alt="next">
+                </button>
+            </div>
+        </div>
+        <div class="goods__slider-wrapper">
+            <div class="goods__slider content">
+                <div class="thumbnail">
+                    <div class="thumbnail__pop-up-block">
+                        <div class="pop-up-block__wrapper">
+                            <img class="pop-up-block__icon" src="img/icons/icon_shop-it.png" alt="shop-it">
+                            <span class="shop-it__text">Shop it</span>
+                        </div>
+                    </div>
+                    <img class="thumbnail__img" src="img/goods-img/goods-img_1.jpg" alt="product">
+                    <div class="thumbnail__caption">
+                        <h3 class="thumbnail__title">Mimosa lace dress</h3>
+                        <p class="thumbnail__price">$76.95</p>
+                        <button class="btn btn_default thumbnail__btn">Add to cart <img src="img/icons/icon_plus.png"
+                                                                                        alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <div class="thumbnail__pop-up-block">
+                        <div class="pop-up-block__wrapper">
+                            <img class="pop-up-block__icon" src="img/icons/icon_shop-it.png" alt="shop-it">
+                            <span class="shop-it__text">Shop it</span>
+                        </div>
+                    </div>
+                    <div class="thumbnail__sale-badge">Sale</div>
+                    <img class="thumbnail__img" src="img/goods-img/goods-img_2.jpg" alt="product">
+                    <div class="thumbnail__caption">
+                        <h3 class="thumbnail__title">Feel tank</h3>
+                        <p class="thumbnail__price">$59.95</p>
+                        <button class="btn btn_default thumbnail__btn">Add to cart <img src="img/icons/icon_plus.png"
+                                                                                        alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <div class="thumbnail__pop-up-block">
+                        <div class="pop-up-block__wrapper">
+                            <img class="pop-up-block__icon" src="img/icons/icon_shop-it.png" alt="shop-it">
+                            <span class="shop-it__text">Shop it</span>
+                        </div>
+                    </div>
+                    <img class="thumbnail__img" src="img/goods-img/goods-img_3.jpg" alt="product">
+                    <div class="thumbnail__caption">
+                        <h3 class="thumbnail__title">Hot shorts </h3>
+                        <p class="thumbnail__price">$35.95</p>
+                        <button class="btn btn_default thumbnail__btn">Add to cart <img src="img/icons/icon_plus.png"
+                                                                                        alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <div class="thumbnail__pop-up-block">
+                        <div class="pop-up-block__wrapper">
+                            <img class="pop-up-block__icon" src="img/icons/icon_shop-it.png" alt="shop-it">
+                            <span class="shop-it__text">Shop it</span>
+                        </div>
+                    </div>
+                    <img class="thumbnail__img" src="img/goods-img/goods-img_4.jpg" alt="product">
+                    <div class="thumbnail__caption">
+                        <h3 class="thumbnail__title">Petrol sweater</h3>
+                        <p class="thumbnail__price">$45.90</p>
+                        <button class="btn btn_default thumbnail__btn">Add to cart <img src="img/icons/icon_plus.png"
+                                                                                        alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <div class="thumbnail__pop-up-block">
+                        <div class="pop-up-block__wrapper">
+                            <img class="pop-up-block__icon" src="img/icons/icon_shop-it.png" alt="shop-it">
+                            <span class="shop-it__text">Shop it</span>
+                        </div>
+                    </div>
+                    <div class="thumbnail__sale-badge">Sale</div>
+                    <img class="thumbnail__img" src="img/goods-img/goods-img_2.jpg" alt="product">
+                    <div class="thumbnail__caption">
+                        <h3 class="thumbnail__title">Shorts</h3>
+                        <p class="thumbnail__price">$35.95</p>
+                        <button class="btn btn_default thumbnail__btn">Add to cart <img src="img/icons/icon_plus.png"
+                                                                                        alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <div class="thumbnail__pop-up-block">
+                        <div class="pop-up-block__wrapper">
+                            <img class="pop-up-block__icon" src="img/icons/icon_shop-it.png" alt="shop-it">
+                            <span class="shop-it__text">Shop it</span>
+                        </div>
+                    </div>
+                    <div class="thumbnail__sale-badge">Sale</div>
+                    <img class="thumbnail__img" src="img/goods-img/goods-img_3.jpg" alt="product">
+                    <div class="thumbnail__caption">
+                        <h3 class="thumbnail__title">Top</h3>
+                        <p class="thumbnail__price">$21.50</p>
+                        <button class="btn btn_default thumbnail__btn">Add to cart <img src="img/icons/icon_plus.png"
+                                                                                        alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <div class="thumbnail__pop-up-block">
+                        <div class="pop-up-block__wrapper">
+                            <img class="pop-up-block__icon" src="img/icons/icon_shop-it.png" alt="shop-it">
+                            <span class="shop-it__text">Shop it</span>
+                        </div>
+                    </div>
+                    <img class="thumbnail__img" src="img/goods-img/goods-img_4.jpg" alt="product">
+                    <div class="thumbnail__caption">
+                        <h3 class="thumbnail__title">Petrol sweater</h3>
+                        <p class="thumbnail__price">$45.90</p>
+                        <button class="btn btn_default thumbnail__btn">Add to cart <img src="img/icons/icon_plus.png"
+                                                                                        alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="thumbnail">
+                    <div class="thumbnail__pop-up-block">
+                        <div class="pop-up-block__wrapper">
+                            <img class="pop-up-block__icon" src="img/icons/icon_shop-it.png" alt="shop-it">
+                            <span class="shop-it__text">Shop it</span>
+                        </div>
+                    </div>
+                    <div class="thumbnail__sale-badge">Sale</div>
+                    <img class="thumbnail__img" src="img/goods-img/goods-img_2.jpg" alt="product">
+                    <div class="thumbnail__caption">
+                        <h3 class="thumbnail__title">Feel tank</h3>
+                        <p class="thumbnail__price">$59.95</p>
+                        <button class="btn btn_default thumbnail__btn">Add to cart <img src="img/icons/icon_plus.png"
+                                                                                        alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="clearance content">
+        <div class="clearance__title-group">
+            <div class="clearance-title__decorator"></div>
+            <div class="clearance__title">
+                <div class="clearance-title__item-1">Clearance</div>
+                <div class="clearance-title__item-2">50</div>
+                <div class="clearance-title__item-3">%</div>
+                <div class="clearance-title__item-4">off</div>
+            </div>
+            <div class="clearance-title__decorator"></div>
+        </div>
+        <div class="clearance__thumbnail-group">
+            <div class="thumbnail">
+                <div class="thumbnail__pop-up-block">
+                    <div class="pop-up-block__wrapper">
+                        <img class="pop-up-block__icon" src="img/icons/icon_shop-it.png" alt="shop-it">
+                        <span class="shop-it__text">Shop it</span>
+                    </div>
+                </div>
+                <img class="thumbnail__img" src="img/sale-img/sale-img_1.jpg" alt="">
+                <div class="thumbnail__caption">
+                    <h3 class="thumbnail__title">Nadia dress</h3>
+                    <p class="thumbnail__price">$64.95</p>
+                    <button class="btn btn_default thumbnail__btn">Add to cart <img src="img/icons/icon_plus.png"
+                                                                                    alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <div class="thumbnail__pop-up-block">
+                    <div class="pop-up-block__wrapper">
+                        <img class="pop-up-block__icon" src="img/icons/icon_shop-it.png" alt="shop-it">
+                        <span class="shop-it__text">Shop it</span>
+                    </div>
+                </div>
+                <div class="thumbnail__sale-badge">Sale</div>
+                <img class="thumbnail__img" src="img/sale-img/sale-img_2.jpg" alt="">
+                <div class="thumbnail__caption">
+                    <h3 class="thumbnail__title">Sofi blouse</h3>
+                    <p class="thumbnail__price">$26.95</p>
+                    <button class="btn btn_default thumbnail__btn">Add to cart <img src="img/icons/icon_plus.png"
+                                                                                    alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <div class="thumbnail__pop-up-block">
+                    <div class="pop-up-block__wrapper">
+                        <img class="pop-up-block__icon" src="img/icons/icon_shop-it.png" alt="shop-it">
+                        <span class="shop-it__text">Shop it</span>
+                    </div>
+                </div>
+                <img class="thumbnail__img" src="img/sale-img/sale-img_3.jpg" alt="">
+                <div class="thumbnail__caption">
+                    <h3 class="thumbnail__title">Shorts</h3>
+                    <p class="thumbnail__price">$79.95</p>
+                    <button class="btn btn_default thumbnail__btn">Add to cart <img src="img/icons/icon_plus.png"
+                                                                                    alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="thumbnail">
+                <div class="thumbnail__pop-up-block">
+                    <div class="pop-up-block__wrapper">
+                        <img class="pop-up-block__icon" src="img/icons/icon_shop-it.png" alt="shop-it">
+                        <span class="shop-it__text">Shop it</span>
+                    </div>
+                </div>
+                <div class="thumbnail__sale-badge">Sale</div>
+                <img class="thumbnail__img" src="img/sale-img/sale-img_4.jpg" alt="">
+                <div class="thumbnail__caption">
+                    <h3 class="thumbnail__title">Dress</h3>
+                    <p class="thumbnail__price">$76</p>
+                    <button class="btn btn_default thumbnail__btn">Add to cart <img src="img/icons/icon_plus.png"
+                                                                                    alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="xs-hidden brands">
+        <div class="brands__title-group">
+            <div class="brands-title__decorator"></div>
+            <h3 class="brands__title">Favorite brands</h3>
+            <div class="brands-title__decorator"></div>
+        </div>
+        <div class="brands__content content">
+            <a href="" class="brands__item"><img src="img/brands/brand_1.png" alt="brand"></a>
+            <a href="" class="brands__item"><img src="img/brands/brand_2.png" alt="brand"></a>
+            <a href="" class="brands__item"><img src="img/brands/brand_3.png" alt="brand"></a>
+            <a href="" class="brands__item"><img src="img/brands/brand_4.png" alt="brand"></a>
+            <a href="" class="brands__item"><img src="img/brands/brand_5.png" alt="brand"></a>
+            <a href="" class="brands__item"><img src="img/brands/brand_6.png" alt="brand"></a>
+            <a href="" class="brands__item"><img src="img/brands/brand_7.png" alt="brand"></a>
+            <a href="" class="brands__item"><img src="img/brands/brand_8.png" alt="brand"></a>
+        </div>
+    </section>
+    <section class="xs-hidden about content">
+        <h2 class="about__title">About LookShop</h2>
+        <p class="about__content">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
+            aliquet. Aenean sollicitudin,
+            lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet
+            nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor
+            a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora
+            torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus
+            condimentum sit amet a augue. </p>
+    </section>
+    <div class="xs-hidden payment">
+        <div class="content">
+            <div class="payment__group">
+                <span class="payment__title">We accept</span>
+                <div class="payment__item payment__item_1"></div>
+                <div class="payment__item payment__item_2"></div>
+                <div class="payment__item payment__item_3"></div>
+                <div class="payment__item payment__item_4"></div>
+                <div class="payment__item payment__item_5"></div>
+                <div class="payment__item payment__item_6"></div>
+                <div class="payment__item payment__item_7"></div>
+                <div class="payment__item payment__item_8"></div>
+                <div class="payment__item payment__item_9"></div>
+                <div class="payment__item payment__item_10"></div>
+                <div class="payment__item payment__item_11"></div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="xs-hidden footer__row">
+        <div class="footer__content content">
+            <div class="footer__menu">
+                <article class="footer__item">
+                    <h3 class="footer-item__title">Customer Service</h3>
+                    <ul class="list footer-list">
+                        <li><a class="footer-link" href="#">Contact</a></li>
+                        <li><a class="footer-link" href="#">FAQ</a></li>
+                        <li><a class="footer-link" href="#">Terms of payment</a></li>
+                        <li><a class="footer-link" href="#">Terms of sale</a></li>
+                        <li><a class="footer-link" href="#">Delivery terms and conditions</a></li>
+                        <li><a class="footer-link" href="#">Returns and Refunds</a></li>
+                    </ul>
+                </article>
+                <article class="footer__item">
+                    <h3 class="footer-item__title">Information</h3>
+                    <ul class="list footer-list">
+                        <li><a class="footer-link" href="#">Affiliate</a></li>
+                        <li><a class="footer-link" href="#">Cookies</a></li>
+                        <li><a class="footer-link" href="#">How to shop</a></li>
+                        <li><a class="footer-link" href="#">About Nelly</a></li>
+                        <li><a class="footer-link" href="#">Investor relations</a></li>
+                    </ul>
+                </article>
+                <article class="footer__item">
+                    <h3 class="footer-item__title">Campaigns </h3>
+                    <ul class="list footer-list">
+                        <li><a class="footer-link" href="#">Evening dresses</a></li>
+                        <li><a class="footer-link" href="#">Makeup</a></li>
+                        <li><a class="footer-link" href="#">Fashion forward</a></li>
+                        <li><a class="footer-link" href="#">training clothes</a></li>
+                        <li><a class="footer-link" href="#">Special Occasion Dresses</a></li>
+                    </ul>
+                </article>
+                <article class="footer__item">
+                    <h3 class="footer-item__title">Stores</h3>
+                    <ul class="list footer-list">
+                        <li><a class="footer-link" href="#">Paris</a></li>
+                        <li><a class="footer-link" href="#">New York</a></li>
+                        <li><a class="footer-link" href="#">London</a></li>
+                        <li><a class="footer-link" href="#">Madrid</a></li>
+                        <li><a class="footer-link" href="#">Tokyo</a></li>
+                    </ul>
+                </article>
+            </div>
+            <article class="footer__item footer__item_social">
+                <h3 class="footer-item__title">Social</h3>
+                <ul class="list footer-list footer-list__social">
+                    <li><a class="footer-link__social footer-link__social_twitter" href="#"></a></li>
+                    <li><a class="footer-link__social footer-link__social_pinterest" href="#"></a></li>
+                    <li><a class="footer-link__social footer-link__social_fb" href="#"></a></li>
+                    <li><a class="footer-link__social footer-link__social_google" href="#"></a></li>
+                    <li><a class="footer-link__social footer-link__social_tumblr" href="#"></a></li>
+                    <li><a class="footer-link__social footer-link__social_vimeo" href="#"></a></li>
+                </ul>
+            </article>
+            <div class="footer__item footer__item_secured">
+                <div class="secured__title">100%</div>
+                <div class="secured__text">secured</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer__row_inverted">
+        <div class=" footer-row-inverted__content content">
+            <button class="xs-show btn collapsed__btn">
+                <img src="img/icons/icon__collapsed.png" alt="">
+            </button>
+            <ul class="xs-hidden list list_horizontal">
+                <li class="inverted-footer__item"><a class="inverted-footer__link" href="#">Privacy & Cookies</a>
+                </li>
+                <li class="inverted-footer__item"><a class="inverted-footer__link" href="#">Terms & Conditions</a>
+                </li>
+                <li class="inverted-footer__item"><a class="inverted-footer__link" href="#">Accessibility</a></li>
+                <li class="inverted-footer__item"><a class="inverted-footer__link" href="#">Store Directory</a></li>
+                <li class="inverted-footer__item"><a class="inverted-footer__link" href="#">About Us</a></li>
+            </ul>
+            <div class="footer-row-inverted__info">
+                <div class="footer__copyright">© LookShop.com</div>
+                <div>All Rights Reserved</div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
